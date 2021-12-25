@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Game Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <h5 id="player1_name"> </h5> <span id="player1_score"> </span>
+    <br>
+    <h5 id="player2_name"> </h5> <span id="player2_score"> </span>
+    <div class="container"> 
+        <center>
+            <br><br>
+            <h1 style="color: white"> The Math Quiz </h1>
+            <h2 id="player_question"> Question turn:  </h2>
+            <h2 id="player_answer"> Answer turn:  </h2>
+            <br> <br> <br>
+            <div id="output" style="width:50%">
+
+            </div>
+            <br><br>
+
+            <label> Enter Your Question: <b style="color: red"> Question will be a multiplication problem</b></label>
+            <br><br>
+            <input type= "number" id="n1" placeholder="Number 1" class="mul"> 
+            <label> X </label>
+            <input type= "number" id="n2" placeholder="Number 2" class="mul"> 
+            <br> <br>
+            <button id="send_button"style="background-color: green;" style="color: white" onclick="send()" style="width: 30%;"> Send </button>
+        </center>        
+    </div>
+    <script src="gamie.js"></script>
+    
+</body>
+</html>
